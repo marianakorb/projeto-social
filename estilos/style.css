@@ -24,7 +24,7 @@ main {
 }
 
 section#celular {
-    position: relative;
+    position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -42,4 +42,19 @@ iframe#tela {
 
        width: 267px;
        height: 470px;
+}
+section#redes-sociais {
+    text-align: right;
+}
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
+}
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.616);
+    transform: translate(-3%, -3%);
+    transition: transform .5s, border .3s;
 }
